@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer')
 const fs = require('fs')
 
 const login = 'login';
-const pass = 'password';
+const pass = 'pass';
 const facebookUrl = 'https://m.facebook.com/'; //this scraper was made for facebook mobile for now, dont change url
 const initialUrlToScrap = `${facebookUrl}me/friends`;
 
